@@ -1,0 +1,30 @@
+your-gambling-website/
+│
+├── frontend/
+│   ├── index.html
+│   ├── styles.css
+│   └── script.js
+│
+├── backend/
+│   ├── server.js
+│   ├── routes/
+│   │   ├── auth.js
+│   │   ├── cases.js
+│   │   ├── roulette.js
+│   │   └── users.js
+│   ├── middleware/
+│   │   ├── authMiddleware.js
+│   │   └── ...
+│   ├── controllers/
+│   │   ├── authController.js
+│   │   ├── casesController.js
+│   │   ├── rouletteController.js
+│   │   └── usersController.js
+│   └── models/
+│       ├── user.js
+│       ├── case.js
+│       ├── bet.js
+│       └── ...
+│
+└── database/
+    └── mongodb/
